@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebPage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    .navbar .navbar-nav .nav-link:hover {
+        background-color: transparent;
+        text-decoration: none;
+        color: #007bff;
+    }
+
+
+    .seclast {
+        background-color: rgb(37, 126, 199, 0.9);
+    }
+
+    .last {
+        background: #2682ce;
+    }
+
+    .Tobottom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .itemlist1,
+    .itemlist2 {
+        list-style-type: none;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* str */
+    /* .h1 {
+        margin: 50px 0;
+        text-align: center;
+        text-transform: capitalize;
+    } */
+
+    .parent {
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    /* .son {
+        width: 50%;
+        padding: 0;
+        text-align: center;
+    } */
+
+    .son img {
+        width: 450px;
+    }
+
+    .son a {
+        text-align: center;
+    }
+
+    .daughter {
+        width: 50%;
+        padding: 0 5%;
+        box-sizing: border-box;
+        text-align: justify;
+        line-height: 1.7;
+    }
+
+    /* media qq */
+
+
+    /* desktop  & laptop */
+    @media (min-width:1024px) {
+
+        .parent p {
+            word-spacing: 20px;
+        }
+    }
+
+    /* tablets and ipods */
+    @media (min-width:769) and (max-width:1023) {
+        .p {
+            word-spacing: 10px;
+        }
+    }
+
+
+    /* mobile phone */
+    @media (max-width:768) {
+
+        .parent {
+            display: block;
+        }
+
+        .son {
+            width: 100%
+        }
+
+        .daughter {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    /* media querie */
+    @media (max-width:468px) {
+
+        /* h1 {
+            color: #3498db;
+        } */
+        .son img {
+            padding: 10%;
+            box-sizing: border-box;
+        }
+    }
+
+
+    .nav-link {
+        color: white;
+    }
+</style>
+
+<body>
+
+    <!-- header -->
+    <div class="bg-image" style="background-image: url(/images/bg.png); height: 100vh;  width: 100%;
+    position: absolute;
+    top:0 ;z-index: -1;background-repeat: no-repeat;background-size: cover;  ">
+    </div>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+            <!-- <h1 class="animate__animated animate__bounce">An animated element</h1> -->
+            <a class="navbar-brand " href="#">
+                <img class="animate__animated animate__fadeInLeft" src="/images/logo2-1.png" width="135px" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">offers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Contact</a>
+                    </li>
+                </ul>
+                <!-- <button style='font-size:24px'>Button <i class='fas fa-angle-double-up'></i></button> -->
+                <form>
+                    <button class="btn btn-outline-primary animate__animated  animate__fadeInRight"
+                        type="submit">Login</button>
+                    <button class="btn btn-outline-primary animate__animated  animate__fadeInRight"
+                        type="submit">Request For Demo</button>
+                    <button class="btn btn-outline-primary" type="submit">Downloard brochure</button>
+
+                </form>
+
+            </div>
+        </div>
+    </nav>
+
+    <br>
+    <br>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="animate__animated animate__fadeInTopRight" align="center"
+                    style="color: white; line-height: 65px;">Best IVR Software To Grow Your Business
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h6 align="center" style="color: white;">Spend More Time Growing Your Business
+                    & Less On Managing Calls</h6>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-12 animate__animated animate__fadeInBottomLeft"><img
+                    src="/images/Front-Background-Images-2.png" width="100%" alt="Background Image">
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-12 "><img src="/images/Automatic-call.png" alt="Automatic">
+                <p>Automatic-call</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12"><img src="/images/Blacklisting.png" alt="Blacklisting">
+                <p>Blacklisting</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12"><img src="/images/Call-Recording.png" alt="Call-Recording">
+                <p>Call-Recording</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12"><img src="/images/Call-Tracking.png" alt="Call-Tracking">
+                <p>Call-Tracking</p>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-12 "><img src="/images/CDR.png" alt="CDR">
+                <p>CDR</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 "><img src="/images/Customer-Agent.png" alt="Customer-Agent">
+                <p>Customer-Agent</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 "><img src="/images/IVR-System.png" alt="IVR-System">
+                <p>IVR-System</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 "><img src="/images/Programmable.png" alt="Programmable">
+                <p>Programmable</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="container text-center">
+        <div class="row">
+            
+            <div class="col-lg-6">
+                <img src="/images/screen-soft.png" width="100%" alt="study">
+            </div>
+            <div class="col-lg-6">
+                <p>Welcome your callers with a professional and personalized voice
+                    greeting irrespective of their geographical location, an intelligent
+                    way of routing calls as per callers need . An Interactive Voice Response helps
+                    your business be available 24*7 for your callers, it is the cost effective
+                    way and can be scaled up whenever required.</p>
+            </div>
+        </div>
+       
+    </div>
+    <!-- <div class="parent">
+        <br>
+        <div class="son">
+            <img src="/images/screen-soft.png" width="400px" alt="study">
+        </div>
+
+
+        <div class="daughter">
+
+            <p>Welcome your callers with a professional and personalized voice
+                greeting irrespective of their geographical location, an intelligent
+                way of routing calls as per callers need . An Interactive Voice Response helps
+                your business be available 24*7 for your callers, it is the cost effective
+                way and can be scaled up whenever required.</p>
+        </div>
+
+    </div> -->
+
+
+
+    <br>
+    <br>
+    <div class="seclast">
+        <div class="Tobottom">
+            <button style=" background: white;
+            margin-top: -38px;
+            border-radius: 50%;
+            border: none;
+            width: 88px;
+            height: 88px;">
+                <p> <a href="#"><b> <span style='font-size:50px;'>&#8593;</span> </a></b></p>
+            </button>
+        </div>
+        <br><br>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h2>Phone Number</h2>
+                    <p>
+                    <div class="icon_con"></div><span><i class="fa-solid fa-phone"></i></span> 0124-4310736</p>
+                </div>
+                <div class="col-lg-4">
+                    <h2>Email Address</h2>
+                    <p>
+                    <div class="icon_con"></div><span> <i class="fa-solid fa-envelope"></span></i>
+                    sales@sansoftwares.com</p>
+                </div>
+
+                <div class="col-lg-4">
+                    <h2>Local Address</h2>
+                    <div class="icon_con"></div>
+                    <p><span><i class="fa-solid fa-location-dot"></i></span> 419, 4th Floor, M3M Urbana, Sector 67,<br>
+                        Gurugram, Haryana 122018 .</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="last" style="padding: 30px 0;">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <img src="/images/logo2-1.png" width="255px" style="    margin-bottom: 20px;" alt="logo">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit et voluptates
+                        nisi eos, optio iure cupiditate qui mollitia quae? Odit assumenda nobis repellat ab
+                        autem totam magnam consectetur quas sit!</p>
+                </div>
+                <div class="col">
+                    <h6>Useful links</h6>
+                    <ul class="itemlist1">
+                        <li>Home</li>
+                        <li>List</li>
+                        <li>About IVR</li>
+                        <li>Features</li>
+                        <li>Plane</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h6>Legal</h6>
+                    <ul class="itemlist2">
+                        <li>Term of Service</li>
+                        <li>Privacy Policy</li>
+                        <li>Refund policy</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h6>
+                        Social Links</h6>
+                    <ul class="Social" style=" list-style-type: none; display: flex; justify-content: center; ">
+                        <li><a href="https://en-gb.facebook.com/" style="color: #007bff;
+                            text-decoration: none;
+                            background-color: transparent;"><img src="/images/fb.png" width="40px" alt=""></i></a></li>
+                        <br>
+                        <li><img src="/images/twitter.png" width="40px" alt=""></i></li><br>
+                        <li><img src="/images/145807.png" width="40px" alt=""></i></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        <div class="footer">
+            <p>© 2020. EasyGO IVR All rights reserved.</p>
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/783d42a885.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
